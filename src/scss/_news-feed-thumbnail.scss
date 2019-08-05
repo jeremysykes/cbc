@@ -1,0 +1,20 @@
+.news-feed__thumbnail {
+  margin: 0;
+  flex-shrink: 0;
+  .news-feed__thumbnail-placeholder {
+    position: relative;
+    .news-feed__thumbnail-placeholder-background {
+      background: radial-gradient(#fff, #cbcbcb);
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 56.25%;
+    }
+    .news-feed__thumbnail-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      vertical-align: middle;
+      width: 100%;
+    }
+  }
+}

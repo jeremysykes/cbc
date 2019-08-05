@@ -1,0 +1,32 @@
+.news-feed__story-content {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+
+  .news-feed__headline {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .news-feed__description {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .news-feed__published-date {
+    display: block;
+    color: #545454;
+    font-size: 0.85rem;
+    margin-top: 1.25rem;
+  }
+}

@@ -1,0 +1,21 @@
+.news-feed__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  .news-feed__pagination-button {
+    background-color: #fff;
+    border: 1px solid #545454;
+    color: #0550c8;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 0.6rem 1rem;
+    outline: 0;
+    &.active {
+      text-decoration: none;
+      background: #545454;
+      color: #fff;
+    }
+  }
+}
